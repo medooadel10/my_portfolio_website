@@ -63,6 +63,8 @@ The site includes a skip link, semantic landmarks, visible focus states, reduced
 
 The navigation uses the supplied portrait. `src/app/enhancements.css` defines the polished device frames, product stages, and motion treatment. `src/components/motion-controller.tsx` progressively enhances offscreen sections with one-time reveals and adds subtle pointer-driven depth on desktop. Content remains available without JavaScript, reduced-motion preferences disable motion, and animations do not loop continuously. The thin line under the header indicates reading progress.
 
+The site always uses dark mode, including on the first paint, with no theme toggle or stored theme preference. Edit `src/app/theme.css` for the dark palette and shared visual design.
+
 ## Hosting
 
 `.openai/hosting.json` points Sites hosting at `out/`. The same export can be deployed to any static host. If moving to a different hostname, set `NEXT_PUBLIC_SITE_URL` and rebuild. Use a host that serves folder `index.html` files and the exported `404.html` for unknown paths. Public sharing and custom-domain configuration are separate from the application code.

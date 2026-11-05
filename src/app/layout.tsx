@@ -7,6 +7,7 @@ import { profile } from "@/content/portfolio";
 import { absoluteUrl, siteOrigin } from "@/lib/site";
 import "./globals.css";
 import "./enhancements.css";
+import "./theme.css";
 
 const manrope = localFont({ src: "../../node_modules/@fontsource-variable/manrope/files/manrope-latin-wght-normal.woff2", variable: "--font-heading", display: "swap" });
 const dmSans = localFont({ src: "../../node_modules/@fontsource-variable/dm-sans/files/dm-sans-latin-wght-normal.woff2", variable: "--font-body", display: "swap" });
@@ -21,8 +22,8 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Mohammed Adel — Flutter Developer", description: profile.description, images: ["/images/social/portfolio.png"] },
   icons: { icon: "/icon.svg", apple: "/apple-icon.png" },
 };
-export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#fafbf8" };
+export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#0d1514" };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en" className={`${manrope.variable} ${dmSans.variable}`}><body id="top"><a href="#main" className="skip-link">Skip to content</a><Header />{children}<Contact /><Footer /><MotionController /></body></html>;
+  return <html lang="en" data-theme="dark" className={`${manrope.variable} ${dmSans.variable}`}><body id="top"><a href="#main" className="skip-link">Skip to content</a><Header />{children}<Contact /><Footer /><MotionController /></body></html>;
 }

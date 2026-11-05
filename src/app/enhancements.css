@@ -38,19 +38,22 @@
 /* Product stages: distinct compositions, a light source, and a grounded surface. */
 .project-visual.showcase {
   container-type: inline-size;
+  --stage-color: var(--project-color);
+  --stage-ink: var(--project-ink);
   --phone-width: clamp(116px, 23cqw, 150px);
   height: 445px;
-  border: 1px solid color-mix(in srgb, var(--project-ink) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--stage-ink) 12%, transparent);
   border-radius: 14px;
-  background: radial-gradient(ellipse at var(--spot-x, 28%) var(--spot-y, 20%), #ffffffa8, transparent 65%), var(--project-color);
+  color: var(--stage-ink);
+  background: radial-gradient(ellipse at var(--spot-x, 28%) var(--spot-y, 20%), var(--stage-light, #ffffffa8), transparent 65%), var(--stage-color);
 }
 .project-image-wrap { border-radius: 14px; box-shadow: 0 8px 20px -18px #213a2b66; transition: box-shadow .4s; }
 .project-link:hover .project-image-wrap { box-shadow: 0 18px 35px -24px #213a2b99; }
 .showcase-texture { position: absolute; inset: 0; background-image: radial-gradient(currentColor .65px, transparent .65px); background-size: 19px 19px; opacity: .09; mask-image: linear-gradient(135deg, black, transparent 62%); }
 .showcase-halo { position: absolute; width: 400px; height: 400px; left: 30%; top: 40px; border-radius: 50%; background: #ffffff50; box-shadow: 0 0 0 1px #ffffff50, 0 0 0 30px #ffffff1c, 0 0 0 31px #ffffff30; pointer-events: none; }
-.showcase-floor { position: absolute; width: 74%; height: 65px; left: 18%; bottom: 19px; background: radial-gradient(ellipse, color-mix(in srgb, var(--project-ink) 15%, transparent), transparent 67%); filter: blur(7px); transform: rotate(-5deg); }
+.showcase-floor { position: absolute; width: 74%; height: 65px; left: 18%; bottom: 19px; background: radial-gradient(ellipse, color-mix(in srgb, var(--stage-ink) 15%, transparent), transparent 67%); filter: blur(7px); transform: rotate(-5deg); }
 .showcase .visual-label { left: 26px; top: 24px; font-size: 8px; letter-spacing: .07em; }
-.showcase .visual-brand { left: 26px; top: 54px; font-size: clamp(22px, 4.8cqw, 29px); font-weight: 650; letter-spacing: -.9px; max-width: 85%; }
+.showcase .visual-brand { left: 26px; top: 54px; font-size: clamp(22px, 4.8cqw, 29px); font-weight: 650; letter-spacing: -.9px; max-width: 85%; color: var(--stage-ink); }
 .showcase .visual-brand > span { font-size: 9px; font-weight: 400; letter-spacing: .01em; margin-top: 7px; max-width: none; }
 .mockup-scene { position: absolute; inset: 0; transform: perspective(1100px) rotateX(var(--tilt-x, 0deg)) rotateY(var(--tilt-y, 0deg)); transform-style: preserve-3d; transition: transform .4s cubic-bezier(.2,.7,.2,1); pointer-events: none; }
 .showcase-device { position: absolute; width: var(--phone-width); transition: transform .7s cubic-bezier(.2,.7,.2,1); }
@@ -63,7 +66,7 @@
 .showcase-index { position: absolute; bottom: 21px; right: 25px; font-size: 6px; letter-spacing: .12em; display: flex; align-items: center; gap: 8px; }
 .showcase-index > span { font-size: 14px; }
 .showcase-annotation { position: absolute; left: 25px; bottom: 59px; z-index: 5; display: flex; align-items: center; gap: 9px; background: #fffffff2; border: 1px solid #ffffff; box-shadow: 0 6px 12px -8px #283a3155; border-radius: 9px; padding: 11px 14px 11px 10px; color: #37473b; transform: rotate(-3deg); transition: transform .5s; }
-.showcase-annotation-icon { width: 26px; height: 26px; border-radius: 7px; display: grid; place-items: center; background: var(--project-color); color: var(--project-ink); font-size: 13px; }
+.showcase-annotation-icon { width: 26px; height: 26px; border-radius: 7px; display: grid; place-items: center; background: var(--stage-color); color: var(--stage-ink); font-size: 13px; }
 .showcase-annotation > div { font-size: 9px; font-weight: 550; line-height: 1.4; }
 .showcase-annotation > div > span { display: block; margin-top: 3px; color: #626b64; font-size: 7px; font-weight: 400; }
 .project-link:hover .showcase-annotation { transform: translateY(-3px) rotate(-1deg); }
