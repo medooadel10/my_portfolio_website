@@ -1,0 +1,30 @@
+// Rectangles use normalized source-image coordinates: x, y, width, height.
+// Masks are baked into the published pixels before responsive variants are made.
+const source = (id, folder, index, masks = [], suffix = "") => ({ id, folder, index, masks, suffix });
+export const assets = [
+  source("canteen-parent", "Parent/play/en", 1, [[.18,.697,.193,.043],[.18,.786,.19,.047]]),
+  source("canteen-student", "Child/play/en", 1),
+  source("canteen-pos", "POS/play/en", 1, [[.295,.29,.095,.023],[.45,.29,.049,.023],[.653,.548,.181,.105]]),
+  source("canteen-preorder", "Parent/play/en", 4, [[.083,.464,.13,.014],[.535,.467,.11,.014],[.535,.505,.24,.015],[.535,.543,.24,.014],[.535,.58,.26,.014]]),
+  source("canteen-ingredients", "Child/play/en", 2),
+  source("weevo-home", "Weevo Merchant ", 0, [[.65,.108,.28,.025],[.48,.352,.30,.028]]),
+  source("weevo-orders", "Weevo Merchant ", 7, [[.84,.32,.08,.023],[.68,.359,.24,.021],[.68,.395,.24,.021],[.84,.47,.08,.023],[.68,.509,.24,.021],[.68,.546,.24,.022],[.84,.63,.08,.024],[.68,.671,.24,.021],[.68,.707,.24,.022],[.10,.345,.27,.055],[.10,.505,.27,.07],[.10,.665,.27,.045]]),
+  source("weevo-create", "Weevo Merchant ", 5),
+  source("weevo-login", "Weevo Merchant ", 11),
+  source("ceb-lms-dashboard", "Ceb LMS", 0, [[.04,.087,.50,.068],[.73,.09,.075,.065]]),
+  source("ceb-lms-courses", "Ceb LMS", 1, [[.04,.087,.50,.068],[.73,.09,.075,.065]]),
+  source("ceb-lms-attendance", "Ceb LMS", 2),
+  source("ceb-lms-content", "Ceb LMS", 4),
+  source("ceb-work-dashboard", "Ceb Workspace", 0, [[.04,.085,.65,.068]]),
+  source("ceb-work-attendance", "Ceb Workspace", 2),
+  source("ceb-work-leave", "Ceb Workspace", 4),
+  source("ceb-work-requests", "Ceb Workspace", 5),
+  source("cognitech-home", "Cognitech Workspace", 0, [[.16,.119,.32,.022],[.26,.365,.24,.022]]),
+  source("cognitech-overview", "Cognitech Workspace", 1, [[.16,.119,.32,.022]]),
+  source("cognitech-attendance", "Cognitech Workspace", 4),
+  source("cognitech-leave", "Cognitech Workspace", 5),
+  source("linesteel-client", "LineSteel Client", 14),
+  source("linesteel-tech", "LineSteel Tech", 0, [[.58,.306,.34,.024],[.25,.345,.67,.061],[.22,.419,.66,.025]]),
+  source("linesteel-parts", "LineSteel Client", 10),
+  source("linesteel-report", "LineSteel Tech", 3),
+];

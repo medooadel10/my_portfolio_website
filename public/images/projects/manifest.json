@@ -1,0 +1,277 @@
+[
+  {
+    "id": "canteen-parent",
+    "width": 1320,
+    "height": 2640,
+    "masks": 2,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  {
+    "id": "canteen-student",
+    "width": 1320,
+    "height": 2640,
+    "masks": 0,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  {
+    "id": "canteen-pos",
+    "width": 2560,
+    "height": 1440,
+    "masks": 3,
+    "widths": [
+      560,
+      1120,
+      1600
+    ]
+  },
+  {
+    "id": "canteen-preorder",
+    "width": 1320,
+    "height": 2640,
+    "masks": 5,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  {
+    "id": "canteen-ingredients",
+    "width": 1320,
+    "height": 2640,
+    "masks": 0,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  {
+    "id": "weevo-home",
+    "width": 1206,
+    "height": 2622,
+    "masks": 2,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  {
+    "id": "weevo-orders",
+    "width": 1206,
+    "height": 2622,
+    "masks": 12,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  {
+    "id": "weevo-create",
+    "width": 1206,
+    "height": 2622,
+    "masks": 0,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  {
+    "id": "weevo-login",
+    "width": 1206,
+    "height": 2622,
+    "masks": 0,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  {
+    "id": "ceb-lms-dashboard",
+    "width": 1320,
+    "height": 2868,
+    "masks": 2,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  {
+    "id": "ceb-lms-courses",
+    "width": 1320,
+    "height": 2868,
+    "masks": 2,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  {
+    "id": "ceb-lms-attendance",
+    "width": 1320,
+    "height": 2868,
+    "masks": 0,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  {
+    "id": "ceb-lms-content",
+    "width": 1320,
+    "height": 2868,
+    "masks": 0,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  {
+    "id": "ceb-work-dashboard",
+    "width": 1320,
+    "height": 2868,
+    "masks": 1,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  {
+    "id": "ceb-work-attendance",
+    "width": 1320,
+    "height": 2868,
+    "masks": 0,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  {
+    "id": "ceb-work-leave",
+    "width": 1320,
+    "height": 2868,
+    "masks": 0,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  {
+    "id": "ceb-work-requests",
+    "width": 1320,
+    "height": 2868,
+    "masks": 0,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  {
+    "id": "cognitech-home",
+    "width": 1320,
+    "height": 2868,
+    "masks": 2,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  {
+    "id": "cognitech-overview",
+    "width": 1320,
+    "height": 2868,
+    "masks": 1,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  {
+    "id": "cognitech-attendance",
+    "width": 1320,
+    "height": 2868,
+    "masks": 0,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  {
+    "id": "cognitech-leave",
+    "width": 1320,
+    "height": 2868,
+    "masks": 0,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  {
+    "id": "linesteel-client",
+    "width": 1290,
+    "height": 2796,
+    "masks": 0,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  {
+    "id": "linesteel-tech",
+    "width": 1179,
+    "height": 2556,
+    "masks": 3,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  {
+    "id": "linesteel-parts",
+    "width": 1290,
+    "height": 2796,
+    "masks": 0,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  {
+    "id": "linesteel-report",
+    "width": 1179,
+    "height": 2556,
+    "masks": 0,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  }
+]
