@@ -33,7 +33,7 @@ export default function Home() {
       </div>
     </section>
 
-    <section className="stats container" aria-label="Experience at a glance"><div className="stats-intro">Good software.<br /><span>Real-world experience.</span></div><div className="stat"><strong>4<span>+</span></strong><p>Years building mobile apps</p></div><div className="stat"><strong>10<span>+</span></strong><p>Apps published on the stores</p></div><div className="stat stat-last"><strong>60<span>%</span></strong><p>Reported performance improvement<br />at Weevo</p></div></section>
+    <section className="stats container" aria-label="Experience at a glance"><div className="stats-intro">Good software.<br /><span>Real-world experience.</span></div><div className="stat"><strong>3<span>+</span></strong><p>Years building mobile apps</p></div><div className="stat"><strong>10<span>+</span></strong><p>Apps published on the stores</p></div><div className="stat stat-last"><strong>60<span>%</span></strong><p>Reported performance improvement<br />at Weevo</p></div></section>
 
     <section id="work" className="work-section container" aria-labelledby="work-title">
       <div className="section-heading"><div><div className="eyebrow"><span className="section-dash" /> SELECTED WORK</div><h2 id="work-title">Different products.<br /><span>The same care.</span></h2></div><p>From a school lunch to a working day.<br />A selection of apps I’ve helped bring to life.</p></div>
